@@ -17,7 +17,7 @@ void Sort(int Arr[ROWS][COLS], const int ROWS, const int COLS);
 
 int  Sum(int Arr[], const int n);
 double Avg(int Arr[], const int n);
-int  minValueIn(int Arr[], const int n);
+
 
 void main()
 {
@@ -137,8 +137,3 @@ double Avg(int Arr[], const int n)
 	return (double)Sum(Arr, n) / n;
 }
 
-//int  minValueIn(int Arr[], const int n)
-//{
-//	int min = Arr[0];
-//
-//}
